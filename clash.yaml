@@ -118,24 +118,23 @@ Proxy:
 
 
 # 配置开始
-- name: "V2ray节点的主机测试"
+- name: "搬瓦工"
   type: vmess
-  server: v2rayssr.com
-  port: 443
-  uuid: 5b8098e0-c95d-4c74-b5d5-4a330969c8cb
-  alterId: 2
+  server: 104.243.18.224
+  port: 10067
+  uuid: 62577835-e705-4dc2-9c35-168f28352899
+  alterId: 233
   cipher: auto
   tls: true
   network: ws
   ws-path: /v2rayssrcom/
   Host: v2rayssr.com
 
-- name: "Trojan节点的主机测试"
+- name: "谷歌云"
   type: trojan
-  server: www.v2rayssr.com
+  server: gkdjs.xyz
   port: 443
-  password: v2rayssr.com
-
+  password: fd04c184
  
 ###############################################################配置分割线
 
